@@ -1,0 +1,19 @@
+
+.movie {
+    color: black;
+    font-size: 18px;
+    margin:0px;
+    background-color: #686868;
+}
+.movieList {
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+    
+    }
+    .nav-title {
+        color: red;
+    }
+ 
