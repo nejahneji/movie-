@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal,Button,Form } from 'react-bootstrap'
 import { useState } from 'react';
-const AddMovie = ({handleShow,handleHide,handleAdd,movies}) => {
+const AddMovie = ({handleShow,handleHide,handleAdd}) => {
  
 const [title, setTitle] = useState('');
 const [image, setSrc] = useState('');
@@ -9,9 +9,7 @@ const [rating, setRating] = useState(0);
 const [year, setYear] = useState('');
 
 
-// // const handleClick=() => { handleAdd(title,image,rating,year);
- 
-// }
+
  
     return (
         <div>

@@ -1,19 +1,74 @@
-
 .movie {
-    color: black;
-    font-size: 18px;
-    margin:0px;
-    background-color: #686868;
+  color: black;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #686868;
 }
+
 .movieList {
-   
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+.nav-title {
+  color: red;
+}
+#title,
+#year {
+  color: grey;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+
+                            /*card*/
+
+#Card {
+  background-color: #423f3e;
+  text-align: center;
+}
+
+#btncont {
+  display: flex;
+}
+#play {
+   margin-bottom: 10px;
+  margin-left: 80px;
+}
+#delete {
+  margin-bottom: 10px;
+ margin-left: 60px;
+}
+#play:hover{
+    color: white;
+}
+#delete:hover{
+    color: red;
+}
+.img{opacity: 0.7;} .img:hover{opacity: 1;}
+
+
+                       /* footer */
+
+
+.foot-cont{
+    background-color: grey;
+    height: 80px;
+    display: flex;
+    text-align: center;
+}
     
-    }
-    .nav-title {
-        color: red;
-    }
- 
+
+#f{margin-top: 25px} #f:hover{color: rgb(7, 168, 243);}
+#i{margin-top: 25px} #i:hover{color: #8a2be2;}
+#e{margin-top: 25px} #e:hover{color: blue;}
+
+.foot{
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:250px;
+}
+div>i{margin-left: 50px;}
+h3{padding-top: 25px;font-family: Georgia, serif;}
