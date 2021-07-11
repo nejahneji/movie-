@@ -10,7 +10,7 @@ const MovieList = ({ movies,handleDelete,search,rate }) => {
     <div className="movieList">
       {movies.filter((el)=>el.title.toUpperCase().includes(search.toUpperCase()) && el.rating>=rate).map((el, index) => (
           <div className="movie">
-            <Card key={el.id} id="Card" style={{ width: "18rem" , marginTop :"30px"}}>
+            <Card   key={el.id} id="Card" style={{ width: "18rem" , marginTop :"30px"}}>
               <Card.Img className="img"
                 variant="top"
                 src={el.image}

@@ -6,6 +6,7 @@ import MovieNav from "./components/MovieNav";
 import AddMovie from "./components/AddMovie";
 import Footer from "./components/Footer";
 
+
 function App() {
   const [movieList, setMovieList] = useState([
     {
@@ -114,6 +115,7 @@ function App() {
       ) : null}
       
       <MovieList movies={movieList} handleDelete={handleDelete} search={search} rate={rate}/>
+      
      <Footer/> 
      
       </div>
