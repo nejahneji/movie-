@@ -75,3 +75,19 @@ h3{padding-top: 25px;font-family: Georgia, serif;}
 #contacter{font-family: 'Otomanopee One', sans-serif;}
 #su{font-family: 'Festive', cursive;
   font-family: 'Otomanopee One', sans-serif;}
+                   
+
+
+                               /* Details */
+
+
+
+#retour{margin-left: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;} 
+  #retour:hover{background-color:black}
+.det-cont{
+  display:flex ;
+  flex-direction: row;
+  }
+  .desc{margin-top: 150px;} 

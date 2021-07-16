@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import StarRatingComponent from "react-star-rating-component";
+import { Link } from "react-router-dom";
 
 
 const MovieList = ({ movies,handleDelete,search,rate }) => {
@@ -22,7 +23,7 @@ const MovieList = ({ movies,handleDelete,search,rate }) => {
                 <StarRatingComponent value={el.rating} />
               </Card.Body>
               <div id="btncont">
-              <i class="far fa-play-circle fa-2x" id='play'></i>
+              <Link to={`/movieList/${el.id}`}><i class="far fa-play-circle fa-2x" id='play'></i></Link>
               <i class="fas fa-trash-restore-alt fa-2x" onClick={()=>handleDelete(el.id)} id='delete'></i>
               
               </div>
