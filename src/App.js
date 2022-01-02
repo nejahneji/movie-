@@ -96,13 +96,13 @@ function App() {
       rating: 5,
       year: "2015",
       trailer: "https://www.youtube.com/embed/3od-kQMTZ9M",
-      description: `The Monster Hunter games are hybrid action/role-playing games set in a fantasy world overrun by deadly monsters. Players begin as a low-ranking novice hunter before they can embark on deadly hunts to kill more ferocious beasts. After downing these creatures, players can craft new equipment from monster parts.19 juil. 2016
+      description:  `The Monster Hunter games are hybrid action/role-playing games set in a fantasy world overrun by deadly monsters. Players begin as a low-ranking novice hunter before they can embark on deadly hunts to kill more ferocious beasts. After downing these creatures, players can craft new equipment from monster parts.19 juil. 2016
       `,
     },
   ]);
   const handleAdd = (title, image, rating, year) =>
     setMovieList([...movieList, { title, image, rating, year }]);
-  console.log(movieList);
+  // console.log(movieList);
   const [show, setShow] = useState(false);
 
   const handleShow = () => setShow(true);
@@ -140,7 +140,7 @@ function App() {
           <Route
             exact
             path="/"
-            render={(props) => (
+            render={() => (
               <MovieList
                 movies={movieList}
                 handleDelete={handleDelete}
@@ -162,3 +162,6 @@ function App() {
 }
 
 export default App;
+
+
+

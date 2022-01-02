@@ -21,7 +21,7 @@ const MovieNav = ({ handleShow,setSearch,ratingChanged }) => {
               "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;",
           }}
         >
-          <img src='https://www.journaldugeek.com/content/uploads/2018/03/amazon-prime-video-debarque-enfin-en-france.jpg' style={{ height: 60,width: 170, marginLeft: 0 }}/>
+          <img src='https://www.journaldugeek.com/content/uploads/2018/03/amazon-prime-video-debarque-enfin-en-france.jpg' style={{ height: 60,width: 170, marginLeft: 0 }} alt=''/>
         </Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home"> </Nav.Link>

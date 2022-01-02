@@ -3,9 +3,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Details = ({ match, movieList }) => {
+  console.log(match)
   const search = movieList.find(
     (item) => item.id.toString() === match.params.id.toString()
   );
+ 
   return (
     <div>
       <div className="det-cont">
